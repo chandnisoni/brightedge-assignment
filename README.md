@@ -12,3 +12,8 @@
 ## Typography
 
 The webpage uses [Roboto](https://www.google.com/fonts/specimen/Roboto) font, as UniversLTStd isn't freely available.
+
+## Design Notes
+
+* Uses grids to organize elements on the page.
+* Uses vector graphics.
