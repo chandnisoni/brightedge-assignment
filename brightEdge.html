@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- including bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- mobile responsive  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BrightEdge</title>
+
+  <!-- link to css file -->
+  <link rel="stylesheet" type="text/css" href="brightEdge.css">
+
+  <!-- Roboto was the only free font that was close to UniversLTStd -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+
+  <!-- jquery for button  -->
+  <script>
+    $(document).ready(function(){
+        $("#myBtn").click(function(){
+            $("#myModal").modal();
+        });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- For a full width container, spanning the entire width of your viewport. -->
+  <div id="container-fluid">
+
+    <div id="header">
+      <div id="name"><h1>BRIGHTEDGE</h1></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div id="main" class="col-sm-9">
+        <div class="col-sm-9 col-centered">
+          <img class="img-responsive" alt="Title image"src="img04.svg">
+        </div>
+        <div id="main-content" class="col-sm-8 border-right">
+          <h3>Top 20 Recent BrightEdge SEO Innovations</h3>
+          <p>
+            At BrightEdge our top value is customer success and we have developed
+            tremendous innovations to help you stay ahead of the changes in search and
+            content marketing. As a SaaS company, our software is delivered as a
+            subscription and each month we bring you innovative new technologies at
+            no additional cost.
+          </p>
+          <p>
+            Please check out our latest Infographic that highlights the Top 20 BrightEdge
+            Innovations from the past 12 months -- all of these great features are
+            available in your account today! [ <a href="#">Download a copy in PDF</a> ]
+          </p>
+          <img class="img-responsive" src="img02.svg" alt="image">
+        </div>
+        <div id="side-content" class="col-sm-4">
+          <div id="upper">
+            <img class="img-responsive" src="img03.png" alt="image">
+            <button type="button" id= "myBtn" class="btn btn-default btn-responsive">REQUEST A DEMO</button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-body" style="padding:40px 50px;">
+                    <form role="form">
+                      <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" class="form-control" id="company" placeholder="Enter Company">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number">
+                      </div>
+                      <div class="form-group">
+                        <label for="revenue">Annual Revenue</label>
+                        <input type="text" class="form-control" id="revenue" placeholder="Enter Annual Revenue">
+                      </div>
+                      <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <input type="text" class="form-control" id="notes" placeholder="Enter Additional Notes">
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-block">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div id="lower">
+            <p style="font-weight: bold;">You might also be interested in...</p>
+            <img id="secure" class="img-responsive" src="img07.png" alt="image">
+            <div class="text">
+              <h4 style="font-weight: normal"> We Hold these Truths to be Self Evident: </h4>
+              <p>Consectetur adipiscing elit. Sed ut orci ac neque tincidunt gravida non
+                vitae tellus. Nam sem dui varius.
+              </p>
+              <a href="#">Read more.</a>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </div>
+</body>
+</html>

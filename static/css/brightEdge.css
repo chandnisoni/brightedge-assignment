@@ -1,0 +1,63 @@
+#container-fluid {
+  margin-top: -20px;
+  background-color: #fcfafb;
+}
+
+#name {
+  background-image: url("img06.png");
+}
+
+#name h1{
+  color: white;
+  font-family: "Roboto";
+  font-weight:bolder;
+  padding: 15px;
+  padding-left: 18%;
+}
+
+#main {
+  margin-top: -10px;
+  background-color: #ffffff;
+  box-shadow: -5px 0px 5px -4px rgb(182, 220, 236), 5px 0px 5px -4px rgb(182, 220, 236) ;
+}
+
+#main-content {
+  font-family: "Roboto";
+  font-weight: normal;
+  border-right: 0.25px solid lightgrey;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+#upper {
+  display: inline-block;
+  position: relative;
+}
+
+#myBtn{
+  position: absolute;
+  right:10%;
+  top:60%;
+  width: 80%;
+  background-image: url("img05.png");
+  color: white;
+}
+
+#secure{
+  float:left;
+  margin-left: 10px;
+}
+
+#lower p {
+  font-family: Roboto;
+  color: #797979;
+}
+
+.text {
+  margin-left: 80px;
+  font-family: "Roboto";
+}
