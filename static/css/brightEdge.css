@@ -4,7 +4,7 @@
 }
 
 #name {
-  background-image: url("img06.png");
+  background-image: url("/static/images/img06.png");
 }
 
 #name h1{
@@ -43,7 +43,7 @@
   right:10%;
   top:60%;
   width: 80%;
-  background-image: url("img05.png");
+  background-image: url("/static/images/img05.png");
   color: white;
 }
 
