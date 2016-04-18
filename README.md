@@ -4,8 +4,8 @@
 
 ## Technologies used
 
-* Bootstrap 
-* jQuery
+* Bootstrap (3.3.6)
+* jQuery (1.12.0)
 * HTML5
 * CSS3 
 
