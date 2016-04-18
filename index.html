@@ -1,30 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <!-- including bootstrap -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  <title>BrightEdge</title>
+  <!-- Page meta-data -->
   <!-- mobile responsive  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
 
-  <title>BrightEdge</title>
-
-  <!-- link to css file -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./static/css/brightEdge.css">
 
   <!-- Roboto was the only free font that was close to UniversLTStd -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 
-  <!-- jquery for button  -->
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script>
     $(document).ready(function(){
-        $("#myBtn").click(function(){
-            $("#myModal").modal();
+        $("#demo-btn").click(function(){
+            $("#popup-modal").modal();
         });
     });
   </script>
@@ -33,10 +30,11 @@
 <body>
   <!-- For a full width container, spanning the entire width of your viewport. -->
   <div id="container-fluid">
-
+    <!-- page header -->
     <div id="header">
       <div id="name"><h1>BRIGHTEDGE</h1></div>
     </div>
+    <!-- page body -->
     <div class="row">
       <div class="col-sm-2"></div>
       <div id="main" class="col-sm-9">
@@ -58,13 +56,14 @@
             available in your account today! [ <a href="#">Download a copy in PDF</a> ]
           </p>
           <img class="img-responsive" src="./static/images/img02.svg" alt="image">
-        </div>
+        </div> <!-- main-content -->
         <div id="side-content" class="col-sm-4">
           <div id="upper">
             <img class="img-responsive" src="./static/images/img03.png" alt="image">
-            <button type="button" id= "myBtn" class="btn btn-default btn-responsive">REQUEST A DEMO</button>
+            <button type="button" id= "demo-btn" class="btn btn-default btn-responsive">REQUEST A DEMO</button>
+            <!-- Onclick of Request a demo prompt box appears -->
             <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal fade" id="popup-modal" role="dialog">
               <div class="modal-dialog">
 
                 <!-- Modal content-->
@@ -103,16 +102,15 @@
                         <button type="submit" class="btn btn-success btn-block">Submit</button>
                       </div>
                     </form>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
+                  </div> <!-- modal-body -->
+                </div> <!-- modal-content -->
+              </div> <!-- modal-dialog -->
+            </div> <!-- popup-modal -->
+          </div> <!-- upper -->
           <hr>
           <div id="lower">
             <p style="font-weight: bold;">You might also be interested in...</p>
-            <img id="secure" class="img-responsive" src="./static/images/img07.png" alt="image">
+            <img id="secure-img" class="img-responsive" src="./static/images/img07.png" alt="image">
             <div class="text">
               <h4 style="font-weight: normal"> We Hold these Truths to be Self Evident: </h4>
               <p>Consectetur adipiscing elit. Sed ut orci ac neque tincidunt gravida non
@@ -121,11 +119,11 @@
               <a href="#">Read more.</a>
             </div>
             <hr>
-          </div>
-        </div>
-      </div>
+          </div> <!-- lower -->
+        </div> <!-- side-content -->
+      </div> <!-- main -->
       <div class="col-sm-1"></div>
-    </div>
-  </div>
+    </div> <!-- row -->
+  </div> <!-- container-fluid -->
 </body>
 </html>
